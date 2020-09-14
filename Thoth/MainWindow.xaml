@@ -8,6 +8,17 @@
         xmlns:local="clr-namespace:Thoth"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
+    <mah:MetroWindow.LeftWindowCommands>
+        <mah:WindowCommands>
+            <Menu>
+                <MenuItem Header="Folders">
+                    <MenuItem Header="New note"/>
+                </MenuItem>
+            </Menu>
+        </mah:WindowCommands>
+    </mah:MetroWindow.LeftWindowCommands>
+    
     <Grid>
 
     </Grid>
